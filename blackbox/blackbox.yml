@@ -1,0 +1,11 @@
+modules:
+  http_2xx:
+    prober: http
+    timeout: 5s
+    http:
+      method: GET
+
+  ping:
+    prober: icmp
+    timeout: 5s
+
